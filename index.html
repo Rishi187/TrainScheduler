@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Train Scheduler</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+ <!-- Jquery link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+      <div class= "container">
+
+        <br>
+
+        <div class="jumbotron other-color">
+            <h1 class="text-center"> Train Scheduler</h1>
+        </div>
+
+        <div class = "jumbotron">
+            <h4>Current Train Schedule</h4>
+            <table class="table table-striped table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">Train Name</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Frequency(min)</th>
+                    <th scope="col">Next Arrival</th>
+                    <th scope="col">Minutes Away</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Express</th>
+                    <td>LA</td>
+                    <td>25</td>
+                    <td>5:30</td>
+                    <td>27</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Greyhound</th>
+                    <td>SF</td>
+                    <td>5</td>
+                    <td>10:45</td>
+                    <td>20</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">BART</th>
+                    <td>OAK</td>
+                    <td>10</td>
+                    <td>11:45</td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Hogwarts</th>
+                    <td>NYC</td>
+                    <td>15</td>
+                    <td>12:00</td>
+                    <td>25</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="jumbotron other-color">
+                <h4>Add Train</h4>
+              <form>
+                <div class="train-group">
+                  <label for="trainName">Train Name</label>
+                  <input type="train" class="form-control" id="trainInput" aria-describedby="trainHelp" placeholder="Enter Train Name">
+                </div>
+                <div class="destination-group">
+                  <label for="trainDestination">Destination</label>
+                  <input type="destination" class="form-control" id="destinationInput" aria-describedby="destinationHelp" placeholder="Enter Destination">
+                </div>
+                <div class="firstTrain-check">
+                  <label for="firstTrain">First Train Time</label>
+                  <input type="trainTime" class="form-control" id="timeInput" aria-describedby="timeHelp" placeholder="Enter Train Name">
+                </div>
+                <div class="frequency-check">
+                  <label for="frequencyTime">Frequency</label>
+                  <input type="frequency" class="form-control" id="frequencyInput" aria-describedby="frequencyHelp" placeholder="Frequency">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+      <script type="text/javascript" src="train.js"></script>
+
+  </body>
+
+  </html>
