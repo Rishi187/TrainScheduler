@@ -1,11 +1,14 @@
 .jumbotron {
     background-color:#708090; 
+    padding: 20px;
+    margin: 20px;
 }
 body {
-    background-color: #191970;
+    background: url(http://www.amazingwallpaperz.com/wp-content/uploads/Train-Track-HD-PC-Wallpapers.jpg);
 
 }
 .other-color{
     background: #B0C4DE; 
   }
+
   
